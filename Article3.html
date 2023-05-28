@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en"><!--Set lang-->
+
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Page Title-->
+    <title>Bootstrap Project</title>
+
+    <!--Google Fonts go here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!--Bootstrap Css Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Bootstrap Bundle Link-->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!--JavaScript File Link, Last--><!--If using Bootstrap local file not needed-->
+    <!--<script src="Bootstrap.js"></script>-->
+    
+    <!--Link to CSS page--><!--If using Bootstrap local file link not needed-->
+    <link rel="stylesheet" type="text/css" href="Bootstrap.css">
+        
+
+</head>
+
+<body>
+
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-black nav py-0" role="navigation">
+        <div class="container-fluid">
+            <!--Logo-->
+            <a class="navbar-brand" href="#">Logo</a>
+
+            <!--Navbar Colapse Toggler Button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Collapse based on viewport action-->
+            <div class="collapse navbar-collapse"class="navbarSupportedContent">
+
+                <!--Navbar Links-->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline nav-justified">
+
+                    <li class="nav-item"><!--Home-->
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item"><!--About-->
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown"><!--Portfolio Dropdown-->
+                        <a class="nav-link dropdown-toggle" href="Portfolio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item" href="#">JavaScript Projects</a></li>
+
+                            <li><a class="dropdown-item" href="#">Markup Projects</a></li>
+
+                            <li><hr class="dropdown-divider"></li>
+
+                            <li><a class="dropdown-item" href="#">Other Languages</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><!--Contact-->
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!--Search Bar and Button in Masthead-->
+                <form class="d-flex" role="search">
+
+                    <input class="form-control me-0" btn-outline-dark type="search" placeholder="Search" aria-label="Search">
+
+                    <button type="button" class="btn btn-danger btn-outline-dark">Search</button>
+                
+                </form>
+
+                <!--Stacked Links on Right Side of Masthead-->
+                <ul class="nav flex-column">
+
+                    <li class="nav-item"><!--Login Link-->
+                        <a class="nav-link" href="Login.html">Log In/Sign Up</a>
+                    </li>
+
+                    <li class="nav-item"><!--Locations Link-->
+                        <a class="nav-link" href="Locations.html">Locations</a>
+                    </li>
+
+                </ul>
+            
+            </div>
+        </div>
+        </nav>
+    </header>
+<!--End of Navbar-->
+
+<main>
+    <!--Page Title & Headline-->
+    <div class="container-fluid" id="title-headline">
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <H1 class="title">A Safe Way Home</H1>
+
+                    <h6 class="headline">Where those that have made it out safely help others learn the way</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Narcissistic Video Article-->
+<div class="container-fluid" id="articleone-container"><!--Add a div tag with a class of container to insert animated boxes containing articles and embedded video-->
+    <div class="row">
+        <div class="col">
+            <div class="box" id="articleone-box"><!--Add a div tag with a class of box to hold first article-->
+                <article><br>
+
+                    <h3 class="articletitle">Unveiling Psychological Abuse: Understanding Its Nature and Recognizing the Symptoms of Endurance</h3><br><!--Add an h3 tag to hold title of first article-->
+
+                    <h5 class="articlesubject">Introduction:</h5><br>
+                    <p class="article">Psychological abuse is a form of emotional maltreatment that inflicts significant harm on an individual's mental and emotional well-being. Unlike physical abuse, which leaves visible scars, psychological abuse operates insidiously, leaving victims grappling with invisible wounds. This article aims to shed light on what psychological abuse entails, the tactics commonly employed by abusers, and the symptoms experienced by those enduring it.</p><br>
+                    
+                    <h5 class="articlesubject">Understanding Psychological Abuse:</h5><br>
+                    <p class="article">Psychological abuse, also known as emotional abuse or mental abuse, refers to a pattern of behaviors aimed at undermining an individual's sense of self-worth, autonomy, and emotional stability. It is often characterized by manipulation, control, intimidation, and degradation. Psychological abuse can occur in various contexts, such as personal relationships, family settings, workplaces, or institutions.</p><br>
+            
+                    <h5 class="articlesubject">Common Tactics of Psychological Abuse:</h5><br>
+                    <ol class="articlelist">
+                        <li class="articlelist-item">Verbal and Emotional Attacks: Psychological abusers frequently engage in verbal attacks, using derogatory language, insults, humiliation, or constant criticism to demean and belittle their victims. They may also employ emotional manipulation, guilt-tripping, or emotional blackmail to maintain control.</li>
+                        <li class="articlelist-item">Gaslighting: Gaslighting is a manipulative tactic employed by abusers to distort the victim's perception of reality. This involves denying or trivializing the victim's experiences, emotions, or memories, making them doubt their own sanity and causing confusion and self-doubt.</li>
+                        <li class="articlelist-item">Isolation and Control: Abusers often seek to isolate their victims from support networks, friends, or family members. They may control the victim's activities, monitor their communication, or limit their access to resources, creating a sense of dependency and powerlessness.</li>
+                        <li class="articlelist-item">Threats and Intimidation: Psychological abusers may use threats of physical violence, harm to loved ones, or damage to property as a means of instilling fear and control. The victim lives in a constant state of anxiety and apprehension, never knowing when the next threat might materialize.</li>
+                        <li class="articlelist-item">Manipulation and Mind Games: Abusers employ manipulative techniques, such as manipulation of facts, distorting reality, or playing mind games, to confuse and disorient the victim. This leaves the victim feeling emotionally exhausted, trapped, and unable to trust their own judgment.</li>
+                    </ol><br>
+
+                    <h5 class="articlesubject">Symptoms of Psychological Abuse:</h5><br>
+                    <ol class="articlelist">
+                        <li class="articlelist-item">Low Self-Esteem and Self-Worth: Victims of psychological abuse often experience a significant erosion of self-esteem and self-worth. Constant criticism, degradation, and manipulation undermine their confidence, making them doubt their abilities, appearance, or personal value.</li>
+                        <li class="articlelist-item">Anxiety and Depression: Prolonged exposure to psychological abuse can lead to the development of anxiety and depression. Victims may feel constant fear, sadness, and hopelessness, as the abuse erodes their sense of safety and security.</li>
+                        <li class="articlelist-item">Social Withdrawal and Isolation: Psychological abuse often results in the victim's withdrawal from social activities and relationships. The abuser's tactics of isolation and control can leave the victim feeling isolated, disconnected, and fearful of forming new connections.</li>
+                        <li class="articlelist-item">Emotional Instability and Mood Swings: Victims of psychological abuse may experience emotional instability, characterized by frequent mood swings, irritability, and emotional outbursts. The constant manipulation and psychological stress contribute to emotional turmoil and volatility.</li>
+                        <li class="articlelist-item">Post-Traumatic Stress Symptoms: Long-term psychological abuse can lead to symptoms resembling post-traumatic stress disorder (PTSD). Flashbacks, nightmares, hypervigilance, and a heightened startle response are common signs of trauma endured during the abusive relationship.</li>
+                    </ol><br>
+            
+                    <h5 class="articlesubject">Recovery and Seeking Support:</h5><br>
+                    <p class="article">Recovering from psychological abuse requires time, support, and professional assistance. Breaking free from the cycle of abuse often involves establishing healthy boundaries, rebuilding self-esteem, and seeking therapy. Individual counseling, support groups, and trauma-informed therapy can help survivors process the emotional wounds, regain their sense of self, and develop healthy coping mechanisms.</p><br>
+            
+                    <h5 class="articlesubject">Conclusion:</h5>
+                    <p class="article">Psychological abuse is a damaging form of maltreatment that inflicts profound emotional and psychological harm on its victims. Recognizing the signs and symptoms of psychological abuse is essential to protect oneself and support those who may be enduring such trauma. By raising awareness and providing avenues for healing, we can work towards creating a society where psychological abuse is no longer tolerated or perpetuated.</p><br>
+            
+
+                    <p class="article"><a type="text" title="articlethree" href="Article3.html">Psychological abuse</a>, <a type="text" title="articlefour" href="Article4.html">physical abuse</a>, <a type="text" title="articlefive" href="Article5.html">sexual abuse</a>, <a type="text" title="articlesix" href="Article6.html">financial abuse</a>, <a type="text" title="articleseven" href="Article7.html">emotional abuse</a>, and <a type="text" title="articleeight" href="Article8.html">child abuse</a> are all used in a perfect storm to wage war against a current or former intimate partner in narcissistic abuse. If you or someone you know may have experienced this type of abuse I encourage you to continue reading the provided links for more information. Leaving this type of situation requires support, and planning. Please be careful and take time to prepare an <a type="text" title="articlenine" href="Article9.html"></a>exit strategy</a>.</p><br>
+            
+                    <p class="article">Should you suspect that someone you know may be experiencing domestic abuse, it is important to approach the situation with sensitivity and care. Let the person know that you are there for them and that you support them. Encourage them to seek help and offer to connect them with local resources and support services.</p><br>
+            
+                    <p class="article">Remember, domestic abuse is never the victim's fault. It is a form of violence and control that can have devastating consequences for women and their families. By recognizing the signs and symptoms of domestic abuse and taking action to support victims, we can help create a world where all women are safe, respected, and empowered.</p><br><!--Add a paragraph tag and insert text of first article-->
+
+                </article>
+            </div><!--Close div tag of class box-->
+        </div>
+    </div>
+</div>
+
+
+
+</main> 
+<footer>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-black nav py-0" role="navigation">
+    <div class="container-fluid">
+
+        <!--Logo-->
+        <a class="navbar-brand" href="#">Logo</a>
+
+        <!--Navbar Colapse Toggler Button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Collapse based on viewport action-->
+        <div class="collapse navbar-collapse"id="navbarSupportedContent">
+
+            <!--Navbar Links-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline nav-justified">
+                <li class="nav-item"><!--Home-->
+                    <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                </li>
+
+                <li class="nav-item"><!--About-->
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+
+                <li class="nav-item dropdown"><!--Portfolio Dropdown-->
+                    <a class="nav-link dropdown-toggle" href="Portfolio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+
+                    <ul class="dropdown-menu">
+
+                        <li><a class="dropdown-item" href="#">JavaScript Projects</a></li>
+
+                        <li><a class="dropdown-item" href="#">Markup Projects</a></li>
+
+                        <li><hr class="dropdown-divider"></li>
+
+                        <li><a class="dropdown-item" href="#">Other Languages</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><!--Contact-->
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <!--Search Bar and Button in Masthead-->
+            <form class="d-flex" role="search">
+                <input class="form-control me-0" btn-outline-dark type="search" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-danger btn-outline-dark">Search</button>
+                </button>
+            </form>
+
+            <!--Stacked Links on Right Side of Masthead-->
+            <ul class="nav flex-column">
+
+                <li class="nav-item"><!--Login Link-->
+                    <a class="nav-link" href="Login.html">Log In/Sign Up</a>
+                </li>
+
+                <li class="nav-item"><!--Locations Link-->
+                    <a class="nav-link" href="Locations.html">Locations</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!--End of Navbar-->
+</footer>
+
+
+    <!--Bootstrap Bundle Link-->
+    <!--<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>-->
+
+    <!--JavaScript File Link, Last--><!--If using Bootstrap local file not needed-->
+    <!--<script src="Bootstrap.js"></script>-->
+</body>
+</html>

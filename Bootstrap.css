@@ -1,0 +1,485 @@
+/*Video Code*/
+header {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin-top: 0px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+    background-color: black;
+    min-height: 100vh;  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body::before {
+    content: "XS";
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+  }
+
+  .loginlinks {
+     text-align: right;
+     margin-left: 350px;
+  }
+
+  .login-body {
+    background-image: url(Assets/Images/square-498253_1920.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .login-form {
+    max-width: 1000px;
+    max-height: none;
+    min-height: 400px;
+    position: center;
+    display: center;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+  }
+
+  #login-button {
+    position: center;
+    margin-left: 100px;
+    display: flexbox;
+  }
+
+  .mb-3 {
+    max-width: 800px;
+    position: center;
+    
+  }
+
+
+  footer {
+    margin-top: auto;
+  }
+  
+  /* This box class is purely used for explaining how the bootstrap grid system works. */
+  .box {
+    /*background-color: lightblue;
+    border: 1px solid blue;*/
+    min-height: 50px;
+    font-size: 2rem;
+    color: antiquewhite;
+  }
+  
+  @media (min-width: 576px) {
+    body::before {
+      content: "SM";
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body::before {
+      content: "MD";
+    }
+  }
+  
+  @media (min-width: 992px) {
+    body::before {
+      content: "LG";
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body::before {
+      content: "XL";
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    body::before {
+      content: "XXL";
+    }
+  }
+
+
+
+
+
+
+
+/*My Code below*/
+
+btn .btn-outline-success {
+    color: red;
+}
+
+btn .btn-outline-success:hover {
+    color: red;
+}
+
+btn .search-icon {
+    size-adjust: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+#title-box {
+    background-color: black;
+    color: red;
+    display: flexbox;
+    position: center;
+    text-align: center;
+    
+}
+
+
+btn .btn-outline-success:hover {
+    color: red;
+    background-color: red;
+}
+
+.card text-bg-dark mb-3 {
+    max-width: 18rem;
+}
+
+.articletitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+#articletitle-headline {
+    background-image: url(Assets/Images/filter-2085021_1920.jpg);
+}
+
+#title-headline {
+    background-image: url(Assets/Images/filter-2085021_1920.jpg);
+}
+
+#articletitle-box {
+    background-image: url(Assets/Images/filter-2085021_1920.jpg);
+
+}
+
+#title-box {
+    background-image: url(Assets/Images/filter-2085021_1920.jpg);
+}
+
+.article {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.articletwotitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+#articleone-box {
+    max-width:  1000px;
+    position: center;
+    text-align: center;
+    margin: auto;
+}
+
+#articletwo-box {
+    position: center;
+    text-align: center;
+}
+
+#articleone-container {
+    display: flexbox;
+    position: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 320px;
+}
+
+.navbar {
+    min-height: 80px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    padding: 0;
+    margin: 0;
+    margin-right: 40px;
+  }
+
+  .articleone-main {
+    background-image: url(Assets/Images/art-3561710_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ .videoone-main {
+    background-image: url(Assets/Images/art-3561710_1920.jpg);
+    background-size: auto;
+  }
+
+  .articlelist-item {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+  }
+/*Beginning of text-animation code*/
+
+.statscontainer {
+    display: flex;
+    flex-direction: column;
+    top: 25% !important;
+    padding-top: 200px;
+    position: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .statscontainer.animated {
+    animation-name: repeatAnimation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  .animated-text p {
+    position: absolute;
+    opacity: 0;
+    animation: fade-in 2s ease-in forwards, fade-out 5s 2s ease-out forwards;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 32px
+    
+  }
+  
+  .animated-text {
+    text-align: center;
+    top: 25% !important;
+    position: relative;
+  }
+  
+  .number {
+    position: absolute;
+    opacity: 0;
+    font-size: 172px !important;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    text-align: center !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    color: red !important;
+  }
+
+  .statscontainer .animated-text p:first-child() { /*Number*/
+    animation-delay: 3s;
+  }
+
+  .animated-text p:nth-child(2) {
+    animation-delay:5s;
+  }
+  
+  .animated-text p:nth-child(3) { /*Number*/
+    animation-delay:10s;
+  }
+  
+  .animated-text p:nth-child(4) { 
+    animation-delay: 12s;
+  }
+  
+  .animated-text p:nth-child(5) { /*Number*/
+    animation-delay: 17s;
+  }
+  
+  .animated-text p:nth-child(6) { 
+    animation-delay: 19s;
+  }
+  
+  .animated-text p:nth-child(7) { /*Number*/
+    animation-delay: 24s;
+  }
+  
+  .animated-text p:nth-child(8) { 
+    animation-delay: 26s;
+  }
+  
+  .animated-text p:nth-child(9) {
+    animation-delay: 31s;
+  }
+  
+  .animated-text p:nth-child(10) { /*Number*/
+    animation-delay: 36s;
+  }
+  
+  .animated-text p:nth-child(11) {
+    animation-delay: 38s;
+  }
+  
+  .animated-text p:nth-child(12) { /*Number*/
+    animation-delay: 43s;
+  }
+  
+  .animated-text p:nth-child(13) {
+    animation-delay: 45s;
+  }
+  
+  .animated-text p:nth-child(14) { /*Number*/
+    animation-delay: 50s;
+  }
+  
+  .animated-text p:nth-child(15) {
+    animation-delay: 52s;
+  }
+  
+  .animated-text p:nth-child(16) {
+    animation-delay: 57s;
+  }
+  
+  .animated-text p:nth-child(17) { /*Number*/
+    animation-delay: 62s;
+  }
+  
+  .animated-text p:nth-child(18) {
+    animation-delay: 64s;
+  }
+  
+  .animated-text p:nth-child(19) { /*Number*/
+    animation-delay: 69s;
+  }
+  
+  .animated-text p:nth-child(20) {
+    animation-delay: 71s;
+  }
+  
+  .animated-text p:nth-child(21) {
+    animation-delay: 76s;
+  }
+  
+  .animated-text p:nth-child(22) {
+    animation-delay: 81s;
+  }
+  
+  .animated-text p:nth-child(23) {
+    animation-delay: 86s;
+  }
+  
+  .animated-text p:nth-child(24) { /*Number*/
+    animation-delay: 91s;
+  }
+  
+  .animated-text p:nth-child(25) {
+    animation-delay: 93s;
+  }
+  
+  .animated-text p:nth-child(26) { /*Number*/
+    animation-delay: 98s;
+  }
+  
+  .animated-text p:nth-child(27) {
+    animation-delay: 100s;
+  }
+  
+  .animated-text p:nth-child(28) {
+    animation-delay: 105s;
+  }
+
+
+  @keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .5;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: .5;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+  
+ /* @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+      visibility: hidden;
+      
+      
+    }
+    25% {
+      opacity: 0.5;
+      visibility: visible;
+      color: #000;
+      
+      
+    }
+  
+    50% {
+      opacity: 1;
+      visibility: visible;
+      color: #000;
+      
+      
+    }
+  
+    75% {
+      opacity: 0.5;
+      visibility: visible;
+      color: #000;
+      
+  
+    }
+  
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }*/
+  
+ /* @keyframes repeatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  /*End of text-animation code*/
+
+/*Beginning of Login Page CSS*/
+
